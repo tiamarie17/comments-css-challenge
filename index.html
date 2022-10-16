@@ -15,22 +15,32 @@
 
   <title>CSS Challenge | Interactive comments section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+ 
   <link rel="stylesheet" type="text/css" href="styles.css" />
   <script src = "client.js"></script>
 </head>
 <body>
 
   <!-- Comment #1 -->
-  12
-  <img src="./images/avatars/image-amyrobson.png" alt="profile" />
-  amyrobson 
-  1 month ago
-  Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.
+  <div class = "flex-container">
+
+  <table>
+    <tr>
+        <td id = "tableButtons">
+          <button class = "plus">+</button><br>
+           12<br>
+          <button class = "minus">-</button>
+        </td>
+    </tr>
+  </table>
+
+  <img src="./images/avatars/image-amyrobson.png" alt="profile" width = 30px; height= 30px;/>
+  
+  <div class = "username">amyrobson</div>
+  <div class = "timestamp">1 month ago</div><br>
+
+  <div class = "comment">Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</div>
+  </div>
 
   <!-- Comment #2 -->
   5
@@ -57,7 +67,7 @@
   
   <div class="attribution">
     Challenge adapted from <a href="https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by Tia Theisen.
   </div>
 </body>
 </html>

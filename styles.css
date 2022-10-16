@@ -1,0 +1,36 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.flex-container {
+    display: flex;
+}
+
+.plus, .minus{
+   border: 0px;
+   background-color: hsl(228, 33%, 97%);
+   color:  hsl(239, 57%, 85%);
+   font-size: 16px;
+   font-family: 'Rubik', sans-serif;
+   border-radius: 10px;
+
+}
+
+.plus {
+
+    padding-bottom: 6px;
+}
+
+.minus{
+    padding-top: 6px;
+}
+
+#tableButtons {
+    background-color: hsl(228, 33%, 97%);
+    color: hsl(238, 40%, 52%);
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
