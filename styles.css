@@ -193,7 +193,7 @@ table{
     margin-top: 10px;
   }
 
-  #addComment {
+  .addComment {
     height: 80px;
     width: 430px;
     border-radius: 10px;
@@ -225,8 +225,7 @@ table{
     margin-top: 10px;
   }
   
-  .pointer {cursor: pointer;}
-
+ 
 
 /* Adding hover properties to buttons*/
 
@@ -246,7 +245,11 @@ table{
 .deleteButton:hover {
    color: hsl(357, 100%, 86%)
 }
+/* Adding hover properties to icons */
 
+
+/* Adding pointer cursor */
+#pointer {cursor: pointer;}
 
 
 
