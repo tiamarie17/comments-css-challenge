@@ -11,25 +11,30 @@ body {
 .flex-container {
     display: flex;
     background-color: white;
-    height: 130px;
-    width: 37rem;
+    max-height: 190px;
+    max-width: 37rem;
     border-radius: 10px;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 10px;
 
 }
 
 .comment {
+    max-width: 31rem;
+    max-height: 90px;
     font-size: 14px;
     font-family: 'Rubik', sans-serif;
     color: hsl(211, 10%, 45%);
-    position: relative;
-    bottom: -35px;
-    right: 205px;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: 170px;
+    margin-right: 150px;
+    position: relative;
+    bottom: 72px;
+
+
 
   }
 
@@ -106,7 +111,8 @@ table{
     font-family: 'Rubik', sans-serif;
     color: hsl(238, 40%, 52%);
     margin-top: 10px;
-    margin-left: 0px;
+    margin-left: auto;
+    margin-right: 10px;
     padding-left: 0px;
 
   }
@@ -122,14 +128,22 @@ table{
     padding-right: 0px;
   }
 
-  h5 {
-    color: hsl(238, 40%, 52%);
-  }
 
   #reply1, #reply2 {
     margin-left: 175px;
-    width: 32.5rem;
+    max-width: 32.5rem;
+    max-height: 190px;
   }
+
+  .commentReply1, .commentReply2 {
+    max-width: 27rem;
+    max-height: 90px;
+    margin-left: 240px;
+    position: relative;
+    bottom: 70px;
+    color:hsl(211, 10%, 45%);
+  }
+
 
   .deleteButton {
     border: 0px;
@@ -140,7 +154,7 @@ table{
     font-family: 'Rubik', sans-serif;
     color: hsl(358, 79%, 66%);
     margin-top: 10px;
-    margin-left: 0px;
+    margin-left: auto;
     padding-left: 0px;
 
   }
@@ -168,6 +182,7 @@ table{
     margin-top: 10px;
     margin-left: 0px;
     padding-left: 0px;
+    margin-right: 10px;
 
   }
 
@@ -191,6 +206,11 @@ table{
     font-size: 14px;
     padding: 2px;
     margin-top: 10px;
+    margin-right: 5px;
+  }
+
+  [@]{
+    color: hsl(238, 40%, 52%);
   }
 
   .addComment {
@@ -201,6 +221,7 @@ table{
     margin: 10px;
     font-size: 14px;
     font-family: 'Rubik', sans-serif;
+    text-align: flex-start;
   }
 
   .sendButton {
@@ -213,7 +234,7 @@ table{
     width: 60px;
     height: 35px;
     float: right;
-    margin-left: 5px;
+    margin-left: auto;
     margin-right: 5px;
     margin-top: 10px;
 
