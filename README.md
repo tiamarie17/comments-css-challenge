@@ -1,4 +1,15 @@
-# Comments Section CSS Challenge
+# Project Name
+Comments Section CSS Challenge by Frontend Mentor
+
+
+# My Comments Section: 
+
+
+![Screen Shot 2022-11-09 at 4 26 05 PM](https://user-images.githubusercontent.com/107492167/200956002-b710ad86-ef9d-48f0-a1d7-f0a8b785f543.png)
+
+
+
+# Project Description
 
 Your challenge is to build out this comments section in HTML and CSS and get it looking as close to the design as possible:
 
@@ -13,7 +24,6 @@ Note that SVG images can be used just like any other image, eg:
 ```html
 <img alt="edit" src="./images/icon-edit.svg" />
 ```
-
 
 ## Style Guide
 
@@ -73,13 +83,11 @@ The font is already setup in your [index.html](./index.html). Example usage:
 }
 ```
 
-
 ## Attribution
 
 Challenge adapted from Frontend Mentor.
 
+
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
